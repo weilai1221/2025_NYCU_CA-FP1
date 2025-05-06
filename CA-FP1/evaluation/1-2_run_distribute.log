@@ -1,0 +1,9 @@
+./distribute ../data/Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa ../data/queries.1M.fa 11 64 1
+Passed
+Distribution took 166.181 milliseconds.
+12518.6	0
+137068	3.90625e+06
+Writing file transcripts_data.h
+✅ Wrote to transcripts_data.h successfully.
+Writing file query_data.h
+✅ Wrote to query_data.h successfully.

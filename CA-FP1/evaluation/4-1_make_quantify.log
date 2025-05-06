@@ -1,0 +1,1 @@
+/opt/riscv64i_vector_extension/bin/riscv64-unknown-elf-gcc -static -I /home/gem5/include -o quantify.o quantify.c /home/gem5/util/m5/build/riscv/out/libm5.a
