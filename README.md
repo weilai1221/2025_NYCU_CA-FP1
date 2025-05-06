@@ -7,9 +7,11 @@ This repository contains the course materials for the CA-FP1 course at National 
 ## Getting Started
 
 1. **Run with Docker**
-   If you have already pulled the TA’s image, list containers then attach via `docker exec`:
+   Pull the TA’s image, list containers then attach via `docker exec`:
 
    ```bash
+   sudo docker pull amansinhaatnycu/ca-fp:v4
+   sudo docker run -dit amansinhaatnycu/ca-fp:v4 bash
    sudo docker ps -a
    docker exec -it <container_id> bash
    ```
